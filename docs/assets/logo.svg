@@ -1,14 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6A1B9A;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4A148C;stop-opacity:1" />
+    <linearGradient id="cs-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C2D12"/>
+      <stop offset="50%" stop-color="#9333EA"/>
+      <stop offset="100%" stop-color="#6B21A8"/>
     </linearGradient>
+    <radialGradient id="cs-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FCD34D" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FCD34D" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="600" height="120" rx="16" fill="url(#g)"/>
-  <text x="40" y="72" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white">CivSim</text>
-  <text x="40" y="100" font-family="Arial, sans-serif" font-size="16" fill="#CE93D8">Civilization Simulation</text>
-  <circle cx="535" cy="45" r="8" fill="#CE93D8" opacity="0.6"/>
-  <circle cx="520" cy="60" r="8" fill="#CE93D8" opacity="0.8"/>
-  <circle cx="535" cy="75" r="8" fill="#CE93D8" opacity="0.6"/>
+  <path d="M250 30 C380 30 480 100 490 200 C500 300 420 370 330 380 C240 390 200 340 150 370 C80 400 10 350 5 250 C0 150 80 50 180 40 C220 35 230 30 250 30 Z" fill="url(#cs-bg)"/>
+  <circle cx="250" cy="200" r="80" fill="url(#cs-glow)"/>
+  <circle cx="250" cy="200" r="50" fill="none" stroke="#FCD34D" stroke-width="2" opacity="0.6"/>
+  <circle cx="250" cy="200" r="30" fill="none" stroke="#FCD34D" stroke-width="1.5" opacity="0.4"/>
+  <path d="M200 200 Q220 170 250 200 Q280 230 300 200" fill="none" stroke="#FCD34D" stroke-width="3" opacity="0.8"/>
+  <circle cx="170" cy="160" r="5" fill="#FDE68A" opacity="0.9"/>
+  <circle cx="330" cy="170" r="4" fill="#FDE68A" opacity="0.8"/>
+  <circle cx="190" cy="250" r="4" fill="#FDE68A" opacity="0.7"/>
+  <circle cx="310" cy="240" r="5" fill="#FDE68A" opacity="0.9"/>
+  <circle cx="220" cy="140" r="3" fill="#FDE68A" opacity="0.6"/>
+  <circle cx="280" cy="270" r="3" fill="#FDE68A" opacity="0.6"/>
+  <circle cx="350" cy="220" r="3" fill="#FDE68A" opacity="0.5"/>
+  <circle cx="150" cy="200" r="3" fill="#FDE68A" opacity="0.5"/>
+  <circle cx="250" cy="120" r="3" fill="#FDE68A" opacity="0.5"/>
+  <circle cx="250" cy="280" r="3" fill="#FDE68A" opacity="0.5"/>
+  <text x="250" y="365" font-family="'Georgia', 'Times New Roman', serif" font-size="32" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">CivSim</text>
 </svg>

@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="docs/assets/logo.svg" alt="CivSim" width="600">
-  <h1>CivSim</h1>
+  <img src="docs/assets/logo.svg" alt="CivSim" width="420">
   <p><strong>Multi-Agent Civilization Simulation Framework</strong></p>
   <p>Emergent social behavior · Governance systems · Economic modeling · Cultural evolution</p>
 
