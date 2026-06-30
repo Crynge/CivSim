@@ -4,6 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "civsim"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/civsim", "src/simulation", "src/agents"]
 version = "0.1.0"
 description = "Multi-agent civilization simulation framework for studying emergent social behavior"
 readme = "README.md"
