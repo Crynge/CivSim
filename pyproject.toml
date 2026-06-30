@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "civsim"
+version = "0.1.0"
+description = "Multi-agent civilization simulation framework for studying emergent social behavior"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+authors = [{ name = "Sameer Alam" }]
+keywords = [
+    "multi-agent-systems", "simulation", "emergent-behavior", "cognitive-architecture",
+    "digital-humans", "agent-based-modeling", "generative-agents", "social-simulation",
+    "governance", "cultural-evolution", "complex-systems", "artificial-life",
+    "ai-agents", "python", "asyncio", "research-framework", "emergence",
+    "agent-framework", "social-dynamics", "civilization-simulation"
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.7.0",
+    "networkx>=3.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Crynge/CivSim"
